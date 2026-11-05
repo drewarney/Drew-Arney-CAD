@@ -28,3 +28,10 @@ From Fusion: export STEP and send it to Claude to convert, or right-click each b
 | A     | @    | 185.199.111.153         |
 | CNAME | www  | YOUR-GITHUB-USERNAME.github.io |
 Delete any existing A records on @ (e.g. a registrar "parking" page). DNS takes minutes to a few hours.
+
+## Edit the website text
+Every editable piece of text carries a `data-text="<id>"` attribute (tagline, contact details, and services live in `projects.js`).
+`tools/site_text.py` moves all of it in and out of one JSON file, which is what the "DAC Website Text" editor artifact saves:
+
+    python3 tools/site_text.py export content.json   # site -> JSON
+    python3 tools/site_text.py apply  content.json   # JSON -> site
