@@ -34,7 +34,7 @@ export const SERVICES = [
   },
   {
     title: "Production Drawings",
-    body: "Machinist-ready drawings with clean views, a sensible datum scheme, and GD&T per ASME Y14.5.",
+    body: "Machinist-ready drawings with front, top, and side views, a sensible datum scheme, and GD&T per ASME Y14.5.",
   },
   {
     title: "Drawing Cleanup & Redraws",
@@ -54,7 +54,7 @@ export const SERVICES = [
   },
   {
     title: "Inspection & FAIR Documentation",
-    body: "Ballooned drawings with a numbered callout on every dimension, plus QC measurement logs tied to each GD&T callout, in Excel or PDF, for First Article Inspection Reports.",
+    body: "Ballooned drawings with numbered callouts, plus QC measurement logs tied to each GD&T callout, in Excel or PDF, for First Article Inspection Reports.",
   },
   {
     title: "Reverse Engineering from Measurements",
